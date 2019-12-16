@@ -19,7 +19,7 @@ def hopper
 
 end
 
-def nested_hash =
+def nested_hash
   programmer_hash[grace_hopper]
   return
 end
