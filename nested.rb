@@ -19,8 +19,10 @@ def hopper
 
 end
 
-def nested_hash
-  programmer_hash
+def nested_hash =
+  programmer_hash[grace_hopper]
+  return
+end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
