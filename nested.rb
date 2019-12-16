@@ -70,8 +70,6 @@ def adding_matz
 #    :languages => ["LISP", "C"]
 # }
 
-
-
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -88,6 +86,7 @@ def adding_matz
         }
      }
 
+  programmer_hash.unshift[0]
     
 end
 
